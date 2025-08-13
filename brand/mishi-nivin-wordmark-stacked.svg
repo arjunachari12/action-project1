@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="mn_grad_s" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF8FB3"/>
+      <stop offset="50%" stop-color="#FF7AB6"/>
+      <stop offset="100%" stop-color="#7EB6FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" rx="64" fill="#0E0F13"/>
+
+  <!-- Monogram circle -->
+  <g transform="translate(270,160)">
+    <circle cx="270" cy="220" r="210" fill="url(#mn_grad_s)"/>
+    <g transform="translate(160,90)" stroke="#FFFFFF" stroke-width="36" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <path d="M40 260 L40 20 L108 140 L156 20 L156 260"/>
+      <path d="M196 260 L196 20 M196 20 L298 260 M298 260 L298 20"/>
+    </g>
+  </g>
+
+  <!-- Text -->
+  <g transform="translate(160,690)" fill="#FFFFFF">
+    <text x="0" y="0" font-family="'Poppins', 'Inter', 'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="120" letter-spacing="2">Mishi &amp; Nivin</text>
+    <text x="0" y="72" font-family="'Poppins', 'Inter', 'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="40" fill="#A9B0BC" letter-spacing="6">KIDSWEAR • WOMENSWEAR</text>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="360" viewBox="0 0 1400 360">
+  <defs>
+    <linearGradient id="mn_grad_hl" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF8FB3"/>
+      <stop offset="50%" stop-color="#FF7AB6"/>
+      <stop offset="100%" stop-color="#7EB6FF"/>
+    </linearGradient>
+  </defs>
+  <!-- Monogram badge (rounded square) -->
+  <g transform="translate(0,40)">
+    <rect width="280" height="280" rx="64" fill="url(#mn_grad_hl)"/>
+    <g transform="translate(40,28)" stroke="#FFFFFF" stroke-width="28" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <path d="M28 212 L28 24 L90 128 L136 24 L136 212"/>
+      <path d="M168 212 L168 24 M168 24 L244 212 M244 212 L244 24"/>
+    </g>
+  </g>
+
+  <!-- Wordmark (dark for light backgrounds) -->
+  <g transform="translate(320,88)" fill="#151823">
+    <text x="0" y="80" font-family="'Poppins', 'Inter', 'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="92" letter-spacing="1">Mishi &amp; Nivin</text>
+    <text x="0" y="140" font-family="'Poppins', 'Inter', 'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="28" fill="#6B7280" letter-spacing="2">KIDSWEAR • WOMENSWEAR</text>
+  </g>
+</svg>
